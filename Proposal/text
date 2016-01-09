@@ -1,0 +1,41 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\title{Mapping the Brain: An Introduction to Connectomics
+\linebreak Project Title}
+\author{Adam Chang, Daniel Lopez, Kevin Peng}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+Recent innovations in technology have opened up the possibility of producing a map of the human brain, or connectome. However, the pursuit does present challenges due to the immense size of the brain in comparison to the components that make it up. Not only does the connectome need to identify about 100 billion neurons, it must also indicate approximately 86 billion synapses, creating difficulties in imaging, processing, storage, etc. To address this problem, we will be examining techniques involving cortical columns, bundles of neurons that process a similar receptive field, to develop a more efficient mapping technique. By doing this, we plan to eliminate some of the complexity involved in generating a map of individual neurons and save both time and money.
+
+\section{Project Outline}
+
+\subsection{Methods}
+To attempt to create a graph of the brain, likely using an estimation of the location and densities of cortical columns, we will employ several articles and strategies. First, we will break up the graphing of a brain into multiple steps: Preservation, Cutting, Imaging, Identification of Structures, Analysis of Images, Premature Graph, Statistical Analysis, and then a Finalized Graph.We have done research on the First 4 steps, which are all very well documented. The last two step are based on recently proposed methods to image the brain by use of cortical columns: EM, fMRI, and PET scans. We will be exploring these in detail to develop an efficient method for graphing the brain on a mesoscopic scale, since resolution of scans have increased, going as low as 40nm for fMRIs. It is also possible that we will overlay scans to determine whether the cortical columns truly exist, or were incorrectly determined. This should give us the most accurate 3-D depiction of the brain.
+
+\subsection{Schedule}
+
+For our schedule, we will start by investigating the basics of collecting data for the mapping of a human brain. By the middle of the second week, we should be able to finish the research surrounding Preservation, Cutting, relevant Imaging Techniques, and Identification around the end of the second week. Just to clarify, we are assuming that the research about the Identification of cortical columns is far enough along currently in order to do the project (or else there would be no way to estimate a graph of cortical columns). With a way to image the cortical columns, there is then a way to take those images and statistically estimate the rest of the brain. This will reduce the amount of hard drive space, and CPU power needed to image the brain and create a graph. We will more intricately flesh out the methods to creating a graph and analyzing them in the final 2 weeks.
+
+\subsection{Allocation of Tasks}
+
+Adam - Graphing and Analysis
+\par Investigation of the different methods of imaging, and 
+\newline Daniel - Imaging and Cutting
+\newline Kevin - Identification, Preservation
+\newline All - Methods to Graph
+
+\section {References}
+http://rstb.royalsocietypublishing.org/content/360/1456/837.short
+http://www.nature.com/neuro/journal/v3/n2/full/nn0200\_105.html
+
+\end{document}
